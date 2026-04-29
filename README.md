@@ -2,19 +2,6 @@
 
 A demonstration application showcasing Query RAG (Retrieval-Augmented Generation) capabilities with AI-powered SQL query generation. This application allows users to upload CSV files, automatically analyze their contents, and use natural language to query the data through an AI workflow.
 
-You can watch the full video here:
-
-[![Learn about Query RAG](https://img.youtube.com/vi/5LIfSpr3GDM/0.jpg)](https://youtu.be/5LIfSpr3GDM)
-> 🎥 How to build advanced RAG systems with AI-generated SQL
-
-## Features
-
-- 📤 CSV file upload with drag-and-drop support
-- 📊 Automatic schema detection and PostgreSQL table creation
-- 🤖 AI-powered natural language to SQL conversion
-- 🔍 Smart query analysis and validation
-- 💡 Intelligent error handling and query regeneration
-- 🎯 Context-aware responses based on available data
 
 ## Architecture
 
@@ -71,7 +58,7 @@ DB_NAME=sqlgen
 DB_PASSWORD=admin
 DB_PORT=5432
 PORT=3000
-OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_KEY=openai_api_key
 ```
 
 3. Start the development servers:
